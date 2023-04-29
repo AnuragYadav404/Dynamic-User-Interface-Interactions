@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.content {
+    width: 50vw;
+    position: relative;
+    margin: 16px;
+}
+
+.slide img {
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+}
+
+.prev {
+    position: absolute;
+    top: 50%;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.slide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.navs {
+    background-color: white;
+    border: none;
+    font-size: 48px;
+}
