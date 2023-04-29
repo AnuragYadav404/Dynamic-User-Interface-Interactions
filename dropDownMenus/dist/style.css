@@ -1,0 +1,18 @@
+.dropDownBtn {
+    width: 100px;
+}
+
+.dropDownContent {
+    display: none;
+}
+.dropDownContent a{
+    display: block;
+}
+
+
+.visible {
+    /* width: 1200px; */
+   display: block;
+}
+
+

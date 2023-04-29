@@ -1,0 +1,1 @@
+(()=>{"use strict";var t,e;(function(t,e){t.addEventListener("click",(function(t){e.classList.toggle("visible")}))})(t=document.querySelector(".dropDownBtn"),e=document.querySelector(".dropDownContent")),function(t,e){window.addEventListener("click",(function(n){n.target!=t&&e.classList.contains("visible")&&e.classList.remove("visible")}))}(t,e)})();
